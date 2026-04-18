@@ -1,6 +1,7 @@
 ---
 title: Draft Example
 published: 2022-07-01
+description: This article is a draft and is not published.
 tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: true
