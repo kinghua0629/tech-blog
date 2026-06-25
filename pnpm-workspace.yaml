@@ -17,3 +17,12 @@ minimumReleaseAgeExclude:
   - '@astrojs/compiler-binding@0.2.3'
   - '@astrojs/compiler-rs@0.2.3'
   - '@iconify-json/material-symbols@1.2.81'
+  - '@expressive-code/core@0.44.0'
+  - '@expressive-code/plugin-collapsible-sections@0.44.0'
+  - '@expressive-code/plugin-frames@0.44.0'
+  - '@expressive-code/plugin-line-numbers@0.44.0'
+  - '@expressive-code/plugin-shiki@0.44.0'
+  - '@expressive-code/plugin-text-markers@0.44.0'
+  - astro-expressive-code@0.44.0
+  - expressive-code@0.44.0
+  - rehype-expressive-code@0.44.0
