@@ -226,8 +226,6 @@ export default defineConfig({
 	],
 	markdown: {
 		processor: unified({
-			gfm: false,
-			smartypants: false,
 			remarkPlugins: [
 				...(siteConfig.post.rehypeCallouts.enablePythonMarkdownAdmonitions !== false
 					? [remarkAdmonitionToBlockquoteCallout]
