@@ -92,6 +92,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:docs",
 			},
+			{
+				name: "Status",
+				url: "https://status.kinghua0629.com/",
+				external: true,
+				icon: "material-symbols:monitoring",
+			},
 		],
 	});
 
