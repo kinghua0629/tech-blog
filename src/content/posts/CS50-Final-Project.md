@@ -4,7 +4,7 @@ published: 2026-03-22
 tags: [CS50]
 category: CS50
 description: The video demo for my CS50 Final Project
-image: ./cs50.webp
+image: ./images/cs50.webp
 draft: false
 lang: en
 ---

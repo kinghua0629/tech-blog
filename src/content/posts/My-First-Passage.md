@@ -4,7 +4,7 @@ published: 2026-03-17
 tags: [Announcement]
 category: Announcement
 description: This is my first post as an announcement.
-image: ./about-me-1.webp
+image: ./images/about-me-1.webp
 draft: false
 lang: en
 ---

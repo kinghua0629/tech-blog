@@ -4,7 +4,7 @@ published: 2026-03-18
 tags: [CS50]
 category: CS50
 description: Answer for CS50 Problem Set 9
-image: ./cs50.webp
+image: ./images/cs50.webp
 draft: false
 lang: en
 ---

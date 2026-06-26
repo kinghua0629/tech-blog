@@ -4,7 +4,7 @@ published: 2026-03-18
 tags: [GRE writing]
 category: GRE
 description: My First GRE Passage
-image: ./about-me-1.webp
+image: ./images/about-me-1.webp
 lang: en
 ---
 
