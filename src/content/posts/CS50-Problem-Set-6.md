@@ -4,7 +4,7 @@ published: 2026-03-18
 tags: [CS50]
 category: CS50
 description: Answer for CS50 Problem Set 6
-image: https://cdn.jsdelivr.net/gh/kinghua0629/kinghua0629-blog-img/20260318203536655.webp
+image: ./cs50.webp
 draft: false
 lang: en
 ---

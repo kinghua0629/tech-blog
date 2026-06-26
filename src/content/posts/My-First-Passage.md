@@ -4,7 +4,7 @@ published: 2026-03-17
 tags: [Announcement]
 category: Announcement
 description: This is my first post as an announcement.
-image: https://cdn.jsdelivr.net/gh/kinghua0629/kinghua0629-blog-img/20260317215619583.webp
+image: ./about-me-1.webp
 draft: false
 lang: en
 ---
