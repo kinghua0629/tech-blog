@@ -62,11 +62,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
-			// 打赏
-			LinkPresets.Sponsor,
+			// // 打赏
+			// LinkPresets.Sponsor,
 
 			// 关于页面
 			LinkPresets.About,
+
+			//CV
+			LinkPresets.CV,
 		],
 	});
 
@@ -79,30 +82,24 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/kinghua0629",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
+				name: "CV",
+				url: "https://kinghua0629.com/myCV/cv-1.pdf",
 				external: true,
 				icon: "material-symbols:docs",
 			},
 		],
 	});
+
+	// links.push({
+	// 	name: "CV",
+	// 	url: "/CV/",
+	// 	icon: "material-symbols:docs",
+	// });
 
 	// 文档链接
 	// links.push({
@@ -185,6 +182,12 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/anime/",
 		icon: "material-symbols:live-tv",
 		pageKey: "anime",
+	},
+	CV: {
+		name: "CV",
+		url: "/CV/",
+		icon: "material-symbols:docs",
+		pageKey: "CV",
 	},
 };
 
