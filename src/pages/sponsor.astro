@@ -68,7 +68,7 @@ function getQrLqipProps(qrCode: string) {
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {enabledMethods.map((method) => (
                       <div class="flex flex-col items-center card-base p-6 rounded-lg bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 hover:border-(--primary) transition-colors">
-                        <!-- 图标和名称 -->
+                        {/* 图标和名称 */}
                         <div class="flex items-center gap-3 mb-4">
                           {method.icon && (
                             <Icon is:inline name={method.icon} class="text-2xl text-neutral-900 dark:text-neutral-100 transition-colors" />
@@ -78,14 +78,14 @@ function getQrLqipProps(qrCode: string) {
                           </h3>
                         </div>
 
-                        <!-- 描述 -->
+                        {/* 描述 */}
                         {method.description && (
                           <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-4 text-center">
                             {method.description}
                           </p>
                         )}
 
-                        <!-- 二维码或链接 -->
+                        {/* 二维码或链接 */}
                         {method.qrCode && (
                           <div class="relative w-full max-w-[200px] aspect-square bg-white rounded-lg p-4 shadow-md mb-4 overflow-hidden">
                             <div class="lqip-placeholder absolute inset-0 rounded-lg pointer-events-none" style={getQrLqipProps(method.qrCode).style} aria-hidden="true"></div>
@@ -135,13 +135,12 @@ function getQrLqipProps(qrCode: string) {
             </span>
           )}
         </div>
-        {sponsors.length > 0 ? (
+        {sponsors.length > 0 && (
           <div class="sponsor-grid">
             {sponsors.map((sponsor) => (
               <div class="group flex items-center gap-3 p-3 rounded-xl border border-(--line-divider) hover:border-(--primary) transition-all duration-200">
-                {/* 头像占位 */}
-                <!-- 新的头像逻辑：有头像用图片，没有用首字母 -->
-                {sponsor.avatar ? (
+                {/* 新的头像逻辑：有头像用图片，没有用首字母 */}
+                {sponsor.avatar && (
                   <img 
                     src={url(sponsor.avatar)}
                     alt={sponsor.name}
@@ -149,9 +148,9 @@ function getQrLqipProps(qrCode: string) {
                     loading="lazy"
                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                   />
-                ) : null}
+                )}
 
-                <!-- 首字母头像（作为兜底，图片加载失败也会显示这个） -->
+                {/* 首字母头像（作为兜底，图片加载失败也会显示这个） */}
                 <div 
                   class={`w-9 h-9 rounded-full bg-(--primary)/10 flex items-center justify-center shrink-0 group-hover:bg-(--primary)/20 transition-colors ${sponsor.avatar ? 'hidden' : ''}`}
                 >
@@ -179,7 +178,8 @@ function getQrLqipProps(qrCode: string) {
               </div>
             ))}
           </div>
-        ) : (
+        )}
+        {sponsors.length === 0 && (
           <div class="text-center py-12 text-neutral-500 dark:text-neutral-500">
             <p>{i18n(I18nKey.sponsorEmpty)}</p>
           </div>
