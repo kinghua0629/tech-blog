@@ -114,8 +114,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       node-addon-api:
-        specifier: ^8.8.0
-        version: 8.8.0
+        specifier: ^8.9.0
+        version: 8.9.0
       node-gyp:
         specifier: ^13.0.0
         version: 13.0.0
@@ -4334,8 +4334,8 @@ packages:
   nlcst-to-string@4.0.0:
     resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==}
 
-  node-addon-api@8.8.0:
-    resolution: {integrity: sha512-c5Ko1fZJIJmzhFIkhRN76WTq+fC6tWnGy9CXA0fA+XygsWZmEwG8vmbkNqxMyoaa0Tin4djul49NzdVcJJcjeA==}
+  node-addon-api@8.9.0:
+    resolution: {integrity: sha512-ekZMeaaIzSQTSpr7X2X3iJM7lTzgnx8ahAG9pJfT/7+14mlEM8ZYQ9cgCDvSSRbReFK0oHli3WrZdCiRsgAT9Q==}
     engines: {node: ^18 || ^20 || >= 21}
 
   node-fetch-native@1.6.7:
@@ -10363,7 +10363,7 @@ snapshots:
       ccount: 2.0.1
       devlop: 1.1.0
       mdast-util-from-markdown: 2.0.3
-      mdast-util-to-markdown: 2.1.2
+      mdast-util-to-markdown: 2.0.0
       parse-entities: 4.0.2
       stringify-entities: 4.0.4
       unist-util-visit-parents: 6.0.2
@@ -10993,7 +10993,7 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
 
-  node-addon-api@8.8.0: {}
+  node-addon-api@8.9.0: {}
 
   node-fetch-native@1.6.7: {}
 
@@ -11697,7 +11697,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       hast-util-from-html: 2.0.3
-      unified: 11.0.5
+      unified: 11.0.0
 
   rehype-raw@7.0.0:
     dependencies:
@@ -11732,7 +11732,7 @@ snapshots:
       '@types/hast': 3.0.4
       rehype-parse: 9.0.1
       rehype-stringify: 10.0.1
-      unified: 11.0.5
+      unified: 11.0.0
 
   remark-admonition-to-blockquote-callout@1.0.0:
     dependencies:
