@@ -70,7 +70,7 @@
     "remark-sectionize": "^2.1.0",
     "sanitize-html": "^2.17.5",
     "satori": "^0.26.0",
-    "satteri": "^0.9.3",
+    "satteri": "^0.9.4",
     "sharp": "^0.35.2",
     "stylus": "^0.64.0",
     "svelte": "^5.56.4",
@@ -83,7 +83,7 @@
     "@biomejs/biome": "2.5.1",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/svg-spinners": "^1.2.4",
-    "@tailwindcss/vite": "^4.3.1",
+    "@tailwindcss/vite": "^4.3.2",
     "@types/hast": "^3.0.4",
     "@types/mdast": "^4.0.4",
     "@types/qrcode": "^1.5.6",
@@ -91,7 +91,7 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^14.0.0",
     "subset-font": "^2.5.0",
-    "tailwindcss": "^4.3.1",
+    "tailwindcss": "^4.3.2",
     "tsx": "^4.22.4"
   },
   "packageManager": "pnpm@11.9.0"
