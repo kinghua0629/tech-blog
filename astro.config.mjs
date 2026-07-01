@@ -57,7 +57,11 @@ export default defineConfig({
 	site: siteConfig.site_url,
 
 	base: "/",
-	trailingSlash: "always",
+	// 注意: 这里使用 "ignore" 而非 "always"，因为 "always" 会导致文件端点
+	// (如 [...slug].png.ts 生成的 OG 图片) 被添加尾部斜杠，
+	// 造成 getStaticPaths 生成的路径与构建时的查找路径不匹配，
+	// 特别是包含非 ASCII 字符（如中文）的 slug 会触发此问题。
+	trailingSlash: "ignore",
 
 	// 字体配置 - 只加载实际使用的字体，跳过未引用的以加快构建
 	fonts: (() => {
