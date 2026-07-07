@@ -123,8 +123,8 @@ importers:
         specifier: ^1.5.2
         version: 1.5.2
       pako:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.1
+        version: 3.0.1
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -4527,8 +4527,8 @@ packages:
   pako@1.0.7:
     resolution: {integrity: sha512-3HNK5tW4x8o5mO8RuHZp3Ydw9icZXx0RANAOMzlMzx7LVXhMJ4mo3MOBpzyd7r/+RUu8BmndP47LXT+vzjtWcQ==}
 
-  pako@3.0.0:
-    resolution: {integrity: sha512-TGPtlCI1pSUSbkOIxOUUHNrBa0muz4mAp32cYUF3RoSa5c73jiQTKOKo22gaa4DxLggQrda/DAdax5QkcHPvYA==}
+  pako@3.0.1:
+    resolution: {integrity: sha512-GupotUUI0mlhugKjUs4bjOwLt3nrehy9Ys2dxC0GtgVef5cnKggkDMmf2bq2poCCuVXopWPmqsc9VDT2iJUy+w==}
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -11225,7 +11225,7 @@ snapshots:
 
   pako@1.0.7: {}
 
-  pako@3.0.0: {}
+  pako@3.0.1: {}
 
   parent-module@1.0.1:
     dependencies:

@@ -56,7 +56,7 @@
     "node-addon-api": "^8.9.0",
     "node-gyp": "^13.0.1",
     "pagefind": "^1.5.2",
-    "pako": "^3.0.0",
+    "pako": "^3.0.1",
     "qrcode": "^1.5.4",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
