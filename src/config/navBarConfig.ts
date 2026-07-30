@@ -88,7 +88,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 			{
 				name: "CV",
-				url: "https://kinghua0629.com/myCV/cv-1.pdf",
+				url: "http://kinghua0629.github.io/myCV/cv-1.pdf",
 				external: true,
 				icon: "material-symbols:docs",
 			},
