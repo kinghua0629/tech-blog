@@ -20,7 +20,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.10",
     "@astrojs/cloudflare": "^14.1.6",
-    "@astrojs/compiler-rs": "^0.3.1",
+    "@astrojs/compiler-rs": "^0.3.2",
     "@astrojs/markdown-remark": "^7.2.2",
     "@astrojs/markdown-satteri": "^0.3.5",
     "@astrojs/mdx": "^7.0.5",
@@ -34,7 +34,7 @@
     "@iconify-json/fa7-brands": "^1.2.4",
     "@iconify-json/fa7-regular": "^1.2.3",
     "@iconify-json/fa7-solid": "^1.2.5",
-    "@iconify-json/material-symbols": "^1.2.86",
+    "@iconify-json/material-symbols": "^1.2.87",
     "@iconify-json/mingcute": "^1.2.7",
     "@iconify-json/simple-icons": "^1.2.92",
     "@iconify/utils": "^3.1.4",
