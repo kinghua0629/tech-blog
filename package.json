@@ -34,11 +34,11 @@
     "@iconify-json/fa7-brands": "^1.2.4",
     "@iconify-json/fa7-regular": "^1.2.3",
     "@iconify-json/fa7-solid": "^1.2.5",
-    "@iconify-json/material-symbols": "^1.2.87",
-    "@iconify-json/mingcute": "^1.2.7",
+    "@iconify-json/material-symbols": "^1.2.88",
+    "@iconify-json/mingcute": "^1.2.8",
     "@iconify-json/simple-icons": "^1.2.92",
     "@iconify/utils": "^3.1.4",
-    "@napi-rs/wasm-runtime": "^1.2.1",
+    "@napi-rs/wasm-runtime": "^1.2.2",
     "@swup/astro": "^1.8.0",
     "@tailwindcss/typography": "^0.5.20",
     "astro": "7.1.6",
@@ -53,7 +53,7 @@
     "katex": "^0.18.1",
     "l2d-widget": "^0.1.1",
     "mdast-util-to-string": "^4.0.0",
-    "node-addon-api": "^8.9.0",
+    "node-addon-api": "^8.9.1",
     "node-gyp": "^13.0.1",
     "pagefind": "^1.5.2",
     "pako": "^3.0.1",
@@ -76,7 +76,7 @@
     "svelte": "^5.56.8",
     "typescript": "^6.0.3",
     "unist-util-visit": "^5.1.0",
-    "wrangler": "^4.116.0"
+    "wrangler": "^4.118.0"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.10",
