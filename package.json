@@ -92,7 +92,7 @@
     "postcss-nesting": "^14.0.1",
     "subset-font": "^2.5.0",
     "tailwindcss": "^4.3.3",
-    "tsx": "^4.23.1"
+    "tsx": "^4.23.5"
   },
-  "packageManager": "pnpm@11.18.0"
+  "packageManager": "pnpm@11.19.0"
 }
