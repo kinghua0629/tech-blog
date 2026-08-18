@@ -34,7 +34,7 @@
     "@iconify-json/fa7-brands": "^1.2.4",
     "@iconify-json/fa7-regular": "^1.2.3",
     "@iconify-json/fa7-solid": "^1.2.5",
-    "@iconify-json/material-symbols": "^1.2.88",
+    "@iconify-json/material-symbols": "^1.2.89",
     "@iconify-json/mingcute": "^1.2.8",
     "@iconify-json/simple-icons": "^1.2.93",
     "@iconify/utils": "^3.1.4",
@@ -45,7 +45,7 @@
     "astro-expressive-code": "^0.44.1",
     "astro-icon": "^1.1.5",
     "ci-info": "^4.4.0",
-    "dayjs": "^1.11.21",
+    "dayjs": "^1.11.22",
     "expressive-code-collapsible": "^0.1.0",
     "expressive-code-language-badge": "^1.1.0",
     "glob": "^13.0.6",
@@ -94,5 +94,5 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.12"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
