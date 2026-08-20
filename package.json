@@ -45,7 +45,7 @@
     "astro-expressive-code": "^0.44.1",
     "astro-icon": "^1.1.5",
     "ci-info": "^4.4.0",
-    "dayjs": "^1.11.22",
+    "dayjs": "^1.11.23",
     "expressive-code-collapsible": "^0.1.0",
     "expressive-code-language-badge": "^1.1.0",
     "glob": "^13.0.6",
