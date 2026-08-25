@@ -19,11 +19,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
-    "@astrojs/cloudflare": "^14.2.3",
+    "@astrojs/cloudflare": "^14.2.4",
     "@astrojs/compiler-rs": "^0.4.0",
     "@astrojs/markdown-remark": "^7.2.4",
-    "@astrojs/markdown-satteri": "^0.3.7",
-    "@astrojs/mdx": "^7.0.7",
+    "@astrojs/markdown-satteri": "^0.3.8",
+    "@astrojs/mdx": "^7.0.8",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/svelte": "9.0.1",
@@ -41,13 +41,13 @@
     "@napi-rs/wasm-runtime": "^1.2.3",
     "@swup/astro": "^1.8.0",
     "@tailwindcss/typography": "^0.5.20",
-    "astro": "7.2.4",
+    "astro": "7.2.6",
     "astro-expressive-code": "^0.44.1",
     "astro-icon": "^1.2.0",
     "ci-info": "^4.4.0",
     "dayjs": "^1.11.23",
-    "expressive-code-collapsible": "^0.1.0",
-    "expressive-code-language-badge": "^1.1.0",
+    "expressive-code-collapsible": "^1.0.0",
+    "expressive-code-language-badge": "^2.0.0",
     "glob": "^13.0.6",
     "hastscript": "^9.0.1",
     "katex": "^0.18.4",
@@ -69,7 +69,7 @@
     "remark-math": "^6.0.0",
     "remark-sectionize": "^2.1.0",
     "sanitize-html": "^2.17.7",
-    "satori": "^0.33.3",
+    "satori": "^0.33.4",
     "satteri": "^0.10.5",
     "sharp": "^0.35.3",
     "stylus": "^0.64.0",
@@ -94,5 +94,5 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.12"
   },
-  "packageManager": "pnpm@11.22.0"
+  "packageManager": "pnpm@11.24.0"
 }
