@@ -36,7 +36,7 @@
     "@iconify-json/fa7-solid": "^1.2.5",
     "@iconify-json/material-symbols": "^1.2.90",
     "@iconify-json/mingcute": "^1.2.8",
-    "@iconify-json/simple-icons": "^1.2.93",
+    "@iconify-json/simple-icons": "^1.2.94",
     "@iconify/utils": "^3.1.4",
     "@napi-rs/wasm-runtime": "^1.2.3",
     "@swup/astro": "^1.8.0",
@@ -73,10 +73,10 @@
     "satteri": "^0.10.5",
     "sharp": "^0.35.4",
     "stylus": "^0.64.0",
-    "svelte": "^5.56.10",
+    "svelte": "^5.57.0",
     "typescript": "^6.0.3",
     "unist-util-visit": "^5.1.0",
-    "wrangler": "^4.127.0"
+    "wrangler": "^4.127.1"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.11",
@@ -90,7 +90,7 @@
     "@types/sanitize-html": "^2.16.1",
     "postcss-import": "^17.0.0",
     "postcss-nesting": "^14.0.1",
-    "subset-font": "^2.5.0",
+    "subset-font": "^2.6.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.12"
   },
