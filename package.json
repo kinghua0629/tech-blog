@@ -90,7 +90,7 @@
     "@types/sanitize-html": "^2.16.1",
     "postcss-import": "^17.0.0",
     "postcss-nesting": "^14.0.1",
-    "subset-font": "^2.6.0",
+    "subset-font": "^2.7.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.12"
   },
