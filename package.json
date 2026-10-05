@@ -34,7 +34,7 @@
     "@iconify-json/fa7-brands": "^1.2.4",
     "@iconify-json/fa7-regular": "^1.2.3",
     "@iconify-json/fa7-solid": "^1.2.5",
-    "@iconify-json/material-symbols": "^1.2.93",
+    "@iconify-json/material-symbols": "^1.2.94",
     "@iconify-json/mingcute": "^1.2.8",
     "@iconify-json/simple-icons": "^1.2.98",
     "@iconify/utils": "^3.1.7",
@@ -46,7 +46,7 @@
     "astro-icon": "^1.2.0",
     "ci-info": "^4.4.0",
     "dayjs": "^1.11.23",
-    "expressive-code-collapsible": "^1.0.0",
+    "expressive-code-collapsible": "^1.1.0",
     "expressive-code-language-badge": "^2.0.0",
     "glob": "^13.0.6",
     "hastscript": "^9.0.1",
@@ -54,7 +54,7 @@
     "l2d-widget": "^0.1.2",
     "mdast-util-to-string": "^4.0.0",
     "node-addon-api": "^8.9.2",
-    "node-gyp": "^13.0.2",
+    "node-gyp": "^13.1.0",
     "pagefind": "^1.5.2",
     "pako": "^3.0.2",
     "qrcode": "^1.5.4",
@@ -69,14 +69,14 @@
     "remark-math": "^6.0.0",
     "remark-sectionize": "^2.1.0",
     "sanitize-html": "^2.18.0",
-    "satori": "^0.33.5",
+    "satori": "^0.35.0",
     "satteri": "^0.10.5",
     "sharp": "^0.35.5",
     "stylus": "^0.64.0",
     "svelte": "^5.57.1",
     "typescript": "^6.0.3",
     "unist-util-visit": "^5.1.0",
-    "wrangler": "^4.146.0"
+    "wrangler": "^4.147.0"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.12",
@@ -94,5 +94,5 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15"
   },
-  "packageManager": "pnpm@12.8.1"
+  "packageManager": "pnpm@12.9.1"
 }
