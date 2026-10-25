@@ -18,8 +18,8 @@
     "lqips": "npx tsx scripts/generate-lqips.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@astrojs/cloudflare": "^14.4.0",
+    "@astrojs/check": "^0.9.11",
+    "@astrojs/cloudflare": "^14.4.1",
     "@astrojs/compiler-rs": "^0.5.2",
     "@astrojs/markdown-remark": "^7.3.3",
     "@astrojs/markdown-satteri": "^0.4.4",
@@ -41,7 +41,7 @@
     "@napi-rs/wasm-runtime": "^1.2.5",
     "@swup/astro": "^1.8.0",
     "@tailwindcss/typography": "^0.5.20",
-    "astro": "7.4.0",
+    "astro": "7.4.1",
     "astro-expressive-code": "^0.44.2",
     "astro-icon": "^1.2.0",
     "ci-info": "^4.4.0",
@@ -76,7 +76,7 @@
     "svelte": "^5.57.2",
     "typescript": "^6.0.3",
     "unist-util-visit": "^5.1.0",
-    "wrangler": "^4.151.1"
+    "wrangler": "^4.151.3"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.12",
