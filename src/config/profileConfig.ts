@@ -30,7 +30,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Twitter",
 			icon: "fa7-brands:x-twitter",
-			url: "https://x.com/TimHua349889",
+			url: "https://x.com/kinghua0629",
 			showName: false,
 		},
 		{
