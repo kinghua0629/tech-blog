@@ -4644,8 +4644,8 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  normalize-url@4.5.0:
-    resolution: {integrity: sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==}
+  normalize-url@4.5.1:
+    resolution: {integrity: sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==}
     engines: {node: '>=8'}
 
   nth-check@2.0.1:
@@ -11381,7 +11381,7 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  normalize-url@4.5.0: {}
+  normalize-url@4.5.1: {}
 
   nth-check@2.0.1:
     dependencies:
@@ -11761,7 +11761,7 @@ snapshots:
   postcss-normalize-url@5.0.0(postcss@8.5.15):
     dependencies:
       is-absolute-url: 3.0.3
-      normalize-url: 4.5.0
+      normalize-url: 4.5.1
       postcss: 8.5.15
       postcss-value-parser: 4.2.0
 
