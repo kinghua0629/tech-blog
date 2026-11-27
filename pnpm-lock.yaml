@@ -230,8 +230,8 @@ importers:
         specifier: ^1.2.10
         version: 1.2.10
       '@iconify-json/simple-icons':
-        specifier: ^1.2.103
-        version: 1.2.103
+        specifier: ^1.2.104
+        version: 1.2.104
       '@iconify/utils':
         specifier: ^3.1.7
         version: 3.1.7
@@ -1919,8 +1919,8 @@ packages:
   '@iconify-json/mingcute@1.2.10':
     resolution: {integrity: sha512-TK1iGbnEpR8vcM3VMbKxWT2V3+PN1EYorh0HV4V5Fi4mF+2i/PRG4IJi84Sdu2jIMAqeYghN1wiAUOu8R7EPCg==}
 
-  '@iconify-json/simple-icons@1.2.103':
-    resolution: {integrity: sha512-FMn+aVTsqQdYOwf5reCXXtfWapb+4ijI6WrU8ej1spWXWfA+d41TBXcKagHFwiHZyqt7kP7F04AiG1dYj2R06w==}
+  '@iconify-json/simple-icons@1.2.104':
+    resolution: {integrity: sha512-WBozLa9oBsb6XuY+lnH7maIiYmabee0k276PvVVw+34oGAXNRnfJeilEOB4iQs2wFNU/8M/vQFVy66SHGJaDRw==}
 
   '@iconify-json/svg-spinners@1.2.4':
     resolution: {integrity: sha512-ayn0pogFPwJA1WFZpDnoq9/hjDxN+keeCMyThaX4d3gSJ3y0mdKUxIA/b1YXWGtY9wVtZmxwcvOIeEieG4+JNg==}
@@ -8220,7 +8220,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.103':
+  '@iconify-json/simple-icons@1.2.104':
     dependencies:
       '@iconify/types': 2.0.0
 
